@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Urban Company
+  website host (the only host in apis.yml — the company publishes no public API
+  base URL). Status is the HTTP code observed at fetch time. No document
+  returned 200, so no raw files were saved; candidate API/developer subdomains
+  (api., developer., developers., docs., status., trust., security.
+  urbancompany.com) did not resolve at probe time.
+hosts:
+  - host: https://www.urbancompany.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404

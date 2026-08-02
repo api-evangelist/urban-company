@@ -1,8 +1,32 @@
 aid: urban-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urban-company.png
 name: Urban Company
-description: 'Urban Company is a company surfaced as a portfolio company of bessemer-venture-partners,
-  prosus-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Urban Company (formerly UrbanClap) is a home services marketplace that
+  connects consumers with trained, background-verified professionals for home
+  services, appliance and electronics repair, beauty and salon-at-home
+  services, spa, cleaning, plumbing, electrical, painting, and carpentry work.
+  It operates across cities in India as well as international markets
+  including the UAE and Saudi Arabia, serving customers through its website
+  and iOS/Android apps, while service professionals join and manage work
+  through a dedicated partner platform. The company maintains an investor
+  relations site and publishes an information security policy statement.
+  Urban Company was surfaced as a portfolio company of Bessemer Venture
+  Partners and Prosus Ventures and added to the API Evangelist network for
+  enrichment. It does not publish a public developer API program; its
+  engineering team maintains the urbanclap-engg open-source GitHub
+  organization and an engineering blog on Medium.
 url: https://raw.githubusercontent.com/api-evangelist/urban-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Home Services
+- Marketplace
+- Beauty
+- Appliance Repair
+- Cleaning
+- On-Demand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.urbancompany.com/
+- type: About
+  url: https://www.urbancompany.com/about
+- type: Support
+  url: https://www.urbancompany.com/helpcenter
+- type: Blog
+  url: https://medium.com/urbanclap-engineering
+- type: BlogRSS
+  url: https://medium.com/feed/urbanclap-engineering
+- type: GitHubOrganization
+  url: https://github.com/urbanclap-engg
+- type: TermsOfService
+  url: https://www.urbancompany.com/terms
+- type: PrivacyPolicy
+  url: https://www.urbancompany.com/privacy-policy
+- type: InvestorRelations
+  url: https://investorrelations.urbancompany.com/
+- type: SecurityPolicy
+  url: https://www.urbancompany.com/infosec-policy-statement-and-objective
+- type: LLMsTxt
+  url: llms/urban-company-llms.txt
+- type: DomainSecurity
+  url: security/urban-company-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

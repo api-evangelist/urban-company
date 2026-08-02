@@ -1,0 +1,18 @@
+{
+  "repo": "urban-company",
+  "feeds": [
+    {
+      "source": "https://www.urbancompany.com/helpcenter",
+      "feed_url": "https://www.urbancompany.com/helpcenter",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://medium.com/urbanclap-engineering",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}
